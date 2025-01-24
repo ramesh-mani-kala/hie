@@ -17,4 +17,5 @@ class TestEdit:
         edit_driver.clicking_on_sign_in()
 
      def test_to_verify_the_two_step_verification(self):
- 
+         edit_driver.click_on_edit_profile_settings()
+        edit_driver.clicking_on_update_profile()
