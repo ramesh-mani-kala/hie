@@ -20,4 +20,8 @@ class TestEdit:
      #     edit_driver.click_on_edit_profile_settings()
      #    edit_driver.clicking_on_update_profile()
       edit_driver.clicking_on_sign_in()
-        
+      edit_driver.clicking_on_sign_in()
+        edit_driver.click_on_edit_profile_settings()
+        edit_driver.clicking_on_update_profile()
+        edit_driver.clicking_on_login_settings_button()
+        edit_driver.clicking_on_two_step_verification()
