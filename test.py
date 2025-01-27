@@ -14,7 +14,7 @@ def completer(text, state):
 
 # Set the completer function for readline
 readline.set_completer(completer)
-i
+print
 readline.parse_and_bind('tab: complete')
 
 # A simple loop to take user input
