@@ -9,12 +9,12 @@ def completer(text, state):
     options = [cmd for cmd in commands if cmd.startswith(text)]
     try:
         return options[state]
-    
     except IndexError:
         return None
 
 # Set the completer function for readline
 readline.set_completer(completer)
+
 readline.parse_and_bind('tab: complete')
 
 # A simple loop to take user input
