@@ -5,7 +5,7 @@ Library    Collections
 *** Test Cases ***
 Test Case 1 - Verify File Exists
     [Documentation]    Verify if a file exists in the current directory
-    Create File    testfile1.txt
+    Create File    testfi+le1.txt
     File Should Exist    testfile1.txt
 
 Test Case 2 - Check Directory Creation
