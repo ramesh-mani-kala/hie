@@ -16,7 +16,7 @@ def completer(text, state):
 readline.set_completer(completer)
 pri
 readline.parse_and_bind('tab: complete')
-print
+prin
 
 # A simple loop to take user input
 while True:
