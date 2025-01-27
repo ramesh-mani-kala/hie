@@ -9,7 +9,7 @@ def completer(text, state):
     options = [cmd for cmd in commands if cmd.startswith(text)]
     try:
         return options[state]
-      
+    
     except IndexError:
         return None
 
