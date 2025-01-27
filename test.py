@@ -17,6 +17,7 @@ readline.set_completer(completer)
 pri
 readline.parse_and_bind('tab: complete')
 
+
 # A simple loop to take user input
 while True:
     user_input = input("Enter command: ")
