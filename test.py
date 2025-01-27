@@ -11,7 +11,8 @@ def completer(text, state):
         return options[state]
     except IndexError:
         return None
-      
+
+  p    
 
 # Set the completer function for readline
 readline.set_completer(completer)
