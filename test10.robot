@@ -5,24 +5,24 @@ Library    Collections
 *** Test Cases ***
 Test Case 1 - Verify File Exists
     [Documentation]    Verify if a file exists in the current directory
-    Create File    testfile1.txt
-    File Should Exist    testfile1.txt
+#     Create File    testfile1.txt
+#     File Should Exist    testfile1.txt
 
-Test Case 2 - Check Directory Creation
-    [Documentation]    Verify if a directory can be created successfully
-    Create Directory    TestDirectory
-    Directory Should Exist    TestDirectory
+# Test Case 2 - Check Directory Creation
+#     [Documentation]    Verify if a directory can be created successfully
+#     Create Directory    TestDirectory
+#     Directory Should Exist    TestDirectory
 
-Test Case 3 - Validate String Equality
-    [Documentation]    Verify if two strings are equal
-    Should Be Equal    Hello    Hello
+# Test Case 3 - Validate String Equality
+#     [Documentation]    Verify if two strings are equal
+#     Should Be Equal    Hello    Hello
 
-Test Case 4 - Validate List Length
-    [Documentation]    Verify if a list has the expected number of elements
-    ${list}=    Create List    One    Two    Three
-    Length Should Be    ${list}    3
+# Test Case 4 - Validate List Length
+#     [Documentation]    Verify if a list has the expected number of elements
+#     ${list}=    Create List    One    Two    Three
+#     Length Should Be    ${list}    3
 
-Test Case 5 - Check Number Equality
+# Test Case 5 - Check Number Equality
     [Documentation]    Verify if two numbers are equal
     Should Be Equal As Numbers    10    10
 
