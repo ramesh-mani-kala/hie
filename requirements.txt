@@ -1,4 +1,0 @@
-pytest~=8.3.4
-selenium~=4.28.0
-
-webdriver-manager~=4.0.2
